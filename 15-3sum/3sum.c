@@ -44,7 +44,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
         }
     }
 
-    // prepare returnColumnSizes
     int *colSizes = (int *)malloc(count * sizeof(int));
     for (int i = 0; i < count; i++) colSizes[i] = 3;
 
